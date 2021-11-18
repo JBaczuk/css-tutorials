@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+    <style>
+      :root {
+        color: red;
+      }
+      p {
+        color: #333;
+      }
+
+      p.disclaimer {
+        color: currentColor;
+      }
+
+      /* Set links to reuse currentcolor
+    for color and border-color */
+      p a {
+        text-decoration: none;
+        color: currentcolor;
+        border-bottom: 1px dashed currentcolor;
+      }
+    </style>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <p>
+      Normal paragraph text
+      <a href="">Test Link 1</a> and
+      <a href="">Test Link 2</a>
+    </p>
+
+    <p class="disclaimer">
+      Some paragraph text with the current color used for links
+      <a href="">Test Link 1</a> and
+      <a href="">Test Link 2</a>
+      and some more tex.
+    </p>
+
+    <script src="" async defer></script>
+  </body>
+</html>
